@@ -1,0 +1,10 @@
+let num1 = 23
+let num2 = 30
+
+
+function maxNum(number1 , number2) {
+  return Math.max(number1,number2);
+}
+
+const largest = maxNum(num1 , num2);
+console.log(largest);
